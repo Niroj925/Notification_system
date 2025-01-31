@@ -7,7 +7,7 @@ async function bootstrap() {
 }
 bootstrap()
 .then(() => {
-  console.log('Server started in http://localhost:3000/api');
+  console.log('Server started in http://localhost:3000');
 })
 .catch((e) =>
   console.error(`Error started while server starting as \n ${e.message}`),
